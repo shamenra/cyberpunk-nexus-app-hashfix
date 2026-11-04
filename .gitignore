@@ -1,0 +1,14 @@
+# Never commit game files, generated hash DBs, Nexus app state or private paths
+.work/
+*.AppImage
+*.archive
+*.manifest
+*.acf
+*.zip
+*.log
+*.rocksdb/
+**/obj/
+**/bin/
+**/__pycache__/
+*.pyc
+.DS_Store
